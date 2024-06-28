@@ -44,14 +44,14 @@ function LoginForm() {
        
 
         <Form.Item
-          name="user"
-          rules={[{ required: true, message: t('sys.login.accountPlaceholder') }]}
+          name="username"
+          rules={[{ required: true,  }]}
         >
           <Input placeholder="username" />
         </Form.Item>
         <Form.Item
-          name="pass"
-          rules={[{ required: true, message: t('sys.login.passwordPlaceholder') }]}
+          name="password"
+          rules={[{ required: true,  }]}
         >
           <Input.Password type="password" placeholder="password" />
         </Form.Item>
