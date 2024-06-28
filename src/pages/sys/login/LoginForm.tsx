@@ -35,7 +35,7 @@ function LoginForm() {
         name="login"
         size="large"
         initialValues={{
-          remember: true,
+          remember: false,
           username: DEFAULT_USER.username,
           password: DEFAULT_USER.password,
         }}
