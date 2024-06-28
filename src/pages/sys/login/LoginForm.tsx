@@ -6,14 +6,13 @@ import { AiFillGithub, AiFillGoogleCircle, AiFillWechat } from 'react-icons/ai';
 import { DEFAULT_USER, TEST_USER } from '@/_mock/assets';
 import { SignInReq } from '@/api/services/userService';
 import { useSignIn } from '@/store/userStore';
-import ProTag from '@/theme/antd/components/tag';
-import { useThemeToken } from '@/theme/hooks';
+
 
 import { LoginStateEnum, useLoginStateContext } from './providers/LoginStateProvider';
 
 function LoginForm() {
   const { t } = useTranslation();
-  const themeToken = useThemeToken();
+ 
   const [loading, setLoading] = useState(false);
 
   const { loginState, setLoginState } = useLoginStateContext();
