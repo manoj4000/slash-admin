@@ -12,7 +12,7 @@ import { LoginStateEnum, useLoginStateContext } from './providers/LoginStateProv
 
 function LoginForm() {
   const { t } = useTranslation();
-  const themeToken = useThemeToken();
+  
   const [loading, setLoading] = useState(false);
 
   const { loginState, setLoginState } = useLoginStateContext();
