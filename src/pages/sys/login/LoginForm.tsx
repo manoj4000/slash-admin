@@ -42,9 +42,7 @@ function LoginForm() {
         }}
         onFinish={handleFinish}
       >
-        <div className="mb-4 flex flex-col">
-         
-        </div>
+       
 
         <Form.Item
           name="username"
