@@ -35,6 +35,8 @@ function LoginForm() {
       <Form
         name="login"
         size="large"
+         username: DEFAULT_USER.username,
+          password: DEFAULT_USER.password,
         onFinish={handleFinish}
       >
         
